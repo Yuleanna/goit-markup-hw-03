@@ -1,3 +1,4 @@
+
 .body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -5,11 +6,52 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #ffff;
-  color: #434455;
+  color: #434455; 
 }
 ol,
 ul {
   list-style: none;
+}
+h1,
+h2,
+h3, 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+li {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {
+	display: block;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width:1158px;
+max-width:100%;
+padding-left:0px;
+padding-right:0px;
+margin-left:0px;
+margin-right:0px;
+}
+
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .address-section-item {
   background-color: #ffffff;
@@ -25,6 +67,8 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
+  margin-bottom: 48px;
+  margin-top: 188px;
 }
 .title-section {
   background-color: #2e2f42;
@@ -32,6 +76,8 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .second-title {
   color: #2e2f42;
@@ -48,6 +94,7 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.5;
   text-align: left;
+  margin-right: 8px;
 }
 .button-order-service {
   font-family: 'Roboto', sans-serif;
@@ -59,6 +106,10 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
   text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .button-order-service:hover,
 :focus {
@@ -82,12 +133,19 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 24px 76px 24px 156px;
+  justify-content: flex-start;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .nav-buttons {
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.02em;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .nav-address {
   color: #434455;
@@ -113,12 +171,18 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  margin-left: 639px;
+  margin-right: 639px;
 }
 .team-cards {
   background-color: #ffffff;
+  margin-right: 24px;
 }
 .team-cards-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .benefit-title {
   color: #2e2f42;
@@ -126,6 +190,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-cards-names {
   color: #2e2f42;
@@ -134,6 +199,8 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .team-card-positions {
   color: #434455;
@@ -146,6 +213,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-items {
   color: #2e2f42;
@@ -162,6 +230,9 @@ ul {
 }
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  padding: 100px 0;
 }
 .footer-text {
   color: #f4f4fd;
@@ -192,4 +263,15 @@ padding-left:
 padding-right:  
 margin-left:  
 margin-right:  
+}
+.our-portfolio {
+
+}
+.portfolio {
+  width: calc((100% - 48px ) / 3);
+}
+.name-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
