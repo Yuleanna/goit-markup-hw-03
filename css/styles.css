@@ -210,12 +210,14 @@ button {
 
 .team-cards {
   background-color: #ffffff;
-  margin-right: 24px;
+  display: flex;
+  width: calc((100%-72% / 4));
 }
 .team-cards-section {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
 }
 .benefit-title {
   color: #2e2f42;
