@@ -32,24 +32,32 @@ img {
 a {
   display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 button {
   cursor: pointer;
   display: block;
 }
-nav {
+.nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.container {
-  width: 1158px;
-  max-width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+.menu {
+  display: flex;
+  column-gap: 40px;
 }
 
+.nav-email-phone {
+  display: flex;
+  column-gap: 40px;
+  padding-top: 24px;
+}
+
+.container-page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -153,7 +161,9 @@ nav {
   margin-top: 24px;
   gap: 40px;
   margin-bottom: 24px;
-  display: flex;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-address {
   color: #434455;
@@ -161,8 +171,10 @@ nav {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
-  display: flex;
+  display: block;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-email-phone {
@@ -283,6 +295,7 @@ nav {
   margin-right: auto;
 }
 .our-portfolio {
+  flex-wrap: wrap;
 }
 .portfolio {
   width: calc((100% - 48px) / 3);
