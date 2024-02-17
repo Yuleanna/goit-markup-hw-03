@@ -124,6 +124,11 @@ button {
   padding-right: 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  margin-top: 48px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .button-order-service:hover,
 :focus {
@@ -202,6 +207,7 @@ button {
   margin-left: 639px;
   margin-right: 639px;
 }
+
 .team-cards {
   background-color: #ffffff;
   margin-right: 24px;
