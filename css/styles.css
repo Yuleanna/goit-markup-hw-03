@@ -366,3 +366,7 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
