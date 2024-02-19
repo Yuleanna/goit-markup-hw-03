@@ -221,8 +221,7 @@ button {
 }
 .team-cards-section {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   padding-left: 156px;
   padding-right: 156px;
   display: flex;
@@ -275,6 +274,7 @@ button {
   margin-bottom: 32px;
   margin-left: 68px;
   margin-right: 68px;
+  text-align: center;
 }
 .portfolio-title {
   font-size: 36px;
