@@ -44,7 +44,7 @@ button {
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .nav-email-phone {
@@ -53,9 +53,10 @@ button {
   padding-top: 24px;
 }
 
-.container-page-header-container {
+.page-header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .section {
   padding-top: 120px;
@@ -64,6 +65,7 @@ button {
 .address-section-item {
   background-color: #ffffff;
   font-style: normal;
+  border-bottom: 1px solid #e7e9fc;
 }
 .address-email-phone {
   font-style: normal;
@@ -87,8 +89,8 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .visually-hidden {
   position: absolute;
@@ -131,6 +133,7 @@ button {
   height: 56px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
 }
 .button-order-service:hover,
 :focus {
@@ -186,6 +189,7 @@ button {
 
 .address-email-phone {
   display: flex;
+  gap: 40px;
 }
 
 .nav-buttons:hover,
@@ -344,6 +348,8 @@ button {
   flex-wrap: wrap;
   display: flex;
   padding-left: 156px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio {
   width: calc((100% - 48px) / 3);
