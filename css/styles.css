@@ -218,6 +218,8 @@ button {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
   display: flex;
 }
 .benefit-title {
